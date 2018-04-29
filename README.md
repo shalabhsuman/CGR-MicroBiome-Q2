@@ -2,7 +2,7 @@
 This is Cancer Genomics Research Laboratory (CGR) MicroBiome Analyis Pipeline. Its a wrapper based on QIIME2.
 
 ##### Table of Contents  
-[Step 0](#https://github.com/shalabhsuman/CGR-MicroBiome-Q2#step-0-preparing-the-global-configuration-file-project-manifest-and-environments)  
+[Step 0](#step-0-preparing-the-global-configuration-file-project-manifest-and-environments)  
 [Step 1](#emphasis)  
 
 ## Step 0: Preparing the Global Configuration File, Project Manifest and Environments
