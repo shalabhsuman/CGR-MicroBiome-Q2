@@ -1,5 +1,5 @@
 # CGR-MicroBiome-Q2
-MicroBiome Pipeline Wrapper for QIIME2
+This is Cancer Genomics Research Laboratory (CGR) MicroBiome Analyis Pipeline. Its a wrapper based on QIIME2.
 
 
 ## Step 0: Preparing the Global Configuration File, Project Manifest and Environments
@@ -475,9 +475,9 @@ for manifest_file_split_part in $(ls -v ${MANIFEST_FILE_SPLIT_PARTS_DIR}/*txt); 
 			PN=$(echo $i | cut -f3 -d'#');
 			#echo $PN;
 			#echo "OK";
-			FRP=$(find /DCEG/CGF/Sequencing/Illumina/MiSeq/PostRun_Analysis/Data/${FN}/
+			FRP=$(find ${FlowCell_DIR}/${FN}/
 			CASAVA/L1/Project_${PN}/Sample_${SN}/${SN}*R1_001.fastq.gz);
-			RRP=$(find /DCEG/CGF/Sequencing/Illumina/MiSeq/PostRun_Analysis/Data/${FN}/
+			RRP=$(find {FlowCell_DIR}/${FN}/
 			CASAVA/L1/Project_${PN}/Sample_${SN}/${SN}*R2_001.fastq.gz);
 			#echo $FRP
 			FRN=$(basename ${FRP});
@@ -519,9 +519,9 @@ for manifest_file_split_part in $(ls -v ${MANIFEST_FILE_SPLIT_PARTS_DIR}/*txt); 
 			PN=$(echo $i | cut -f4 -d'#');
 			#echo $ID;
 			#echo $PN;
-			FRP=$(find /DCEG/CGF/Sequencing/Illumina/MiSeq/PostRun_Analysis/Data/${FN}/
+			FRP=$(find {FlowCell_DIR}/${FN}/
 			CASAVA/L1/Project_${PN}/Sample_${SN}/${SN}*R1_001.fastq.gz);
-			RRP=$(find /DCEG/CGF/Sequencing/Illumina/MiSeq/PostRun_Analysis/Data/${FN}/
+			RRP=$(find {FlowCell_DIR}/${FN}/
 			CASAVA/L1/Project_${PN}/Sample_${SN}/${SN}*R2_001.fastq.gz);
 			echo -e $ID","$FRP",forward";
 			echo -e $ID","$RRP",reverse";
