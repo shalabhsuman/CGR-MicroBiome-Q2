@@ -2,10 +2,10 @@
 This is Cancer Genomics Research Laboratory (CGR) MicroBiome Analyis Pipeline. Its a wrapper based on QIIME2.
 
 ##### Table of Contents  
-[Step 0: Preparing the Global Configuration File, Project Manifest and Environments](#step-0-preparing-the-global-configuration-file-project-manifest-and-environments)  
-[Step 1: Dividing the Manifest File into Flowcell-Level Many-Manifest Files](#step-1-dividing-the-manifest-file-into-flowcell-level-many-manifest-files)
-[Step 2: Generate Fastq Folders, Consolidate into TOTAL-FASTQ Folder & Generate the Fastq-import Sample-sheet files](#step-2-generate-fastq-folders-consolidate-into-total-fastq-folder--generate-the-fastq-import-sample-sheet-files)
-[Step 3: Import fastq, Generate demultiplex Visualization & table construction with DADA2](#step-3-import-fastq-generate-demultiplex-visualization--table-construction-with-dada2)
+[Step 0: Preparing the Global Configuration File, Project Manifest and Environments](#step-0-preparing-the-global-configuration-file-project-manifest-and-environments) 
+[Step 1: Dividing the Manifest File into Flowcell-Level Many-Manifest Files](#step-1-dividing-the-manifest-file-into-flowcell-level-many-manifest-files) 
+[Step 2: Generate Fastq Folders, Consolidate into TOTAL-FASTQ Folder & Generate the Fastq-import Sample-sheet files](#step-2-generate-fastq-folders-consolidate-into-total-fastq-folder--generate-the-fastq-import-sample-sheet-files)  
+[Step 3: Import fastq, Generate demultiplex Visualization & table construction with DADA2](#step-3-import-fastq-generate-demultiplex-visualization--table-construction-with-dada2)  
 [Step 4: Merge Frequency and Sequence Artifacts](#step-4-merge-frequency-and-sequence-artifacts)
 [Step 5: Generate Visualizations and Summaries for Merged Frequency and Sequence Artifacts](#step-5-generate-visualizations-and-summaries-for-merged-frequency-and-sequence-artifacts)
 [Step 6: Generate a tree for phylogenetic diversity analyses](#step-6-generate-a-tree-for-phylogenetic-diversity-analyses)
